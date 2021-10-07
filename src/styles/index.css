@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.App-header {
+    width: 1fr;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcaBlog{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logoBlog {
+    width: 100px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.tituloBlog{
+    font-size: 42px;
+    color: rgb(61, 61, 61);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 40px;
+    background: #ffc5c5;
+    border-radius: 5px;
+}
+.listOpcionNav{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+.opcionNav{
+    margin-left: 22px;
+    margin-right: 22px;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px;
+}
+.opcionNav:hover{
+    background-color: #fc8080;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.App-principalSection{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionArticles{
+    width: 75%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.article{
+    height: 250px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.article .imgArticle{
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+.article .titleArticle{
+    color: #575757;
+}
+.article .textArticle{
+    font-size: 15px;
+    margin: 5px;
+    color: #6b6b6b;
+}
+.article .textArticle .readMore a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffacac;
+    margin-left: 10px;
+}
+
+.App-footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffc5c5;
+}
+.listFooter{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.listFooter .opcionFooter{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #575757;
+}
