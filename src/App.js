@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import HeaderBlog from './components/HeaderBlog';
-import SectionArticles from './components/SectionArticles';
+import SectionArticles from './components/sectionArticles/SectionArticles';
 
 function App() {
   return (
